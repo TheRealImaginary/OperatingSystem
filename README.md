@@ -11,5 +11,8 @@ and `sudo apt-get install bochs-x`.
 * gcc: The standard 32-bit GNU C compiler. This generally comes with Unix.
 * nasm: The netwide assembler. `sudo apt-get install nasm`.
 
+# Features
+The OS supports reading, writing and deleting from sectors on the disk. Processes can be created and scheduled to run on the processor to give an illusion of parallelism.
+
 # Run
 Type `./compileOS.sh` to run and try the OS.
